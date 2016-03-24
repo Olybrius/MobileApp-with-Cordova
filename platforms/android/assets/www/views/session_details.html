@@ -1,0 +1,43 @@
+<ons-page id="sessionPageDetails">
+    <ons-toolbar>
+        <div class="left">
+            <ons-toolbar-button onClick="app.navi.popPage()"><ons-icon icon="fa-chevron-left"></ons-icon></ons-toolbar-button>
+        </div>
+        <div class="center">Session</div>
+    </ons-toolbar>
+        <ons-list-item>
+            <ons-icon icon="fa-star" size="20px"></ons-icon>
+             Ajouter aux favoris
+            <label class="switch switch--list-item">
+                <input id="favCheckBox" type="checkbox" class="switch__input">
+                <div class="switch__toggle"></div>
+            </label>
+           </ons-list-item>
+         <h2 id="sessionTitle"></h2>
+            <div class="button-bar" style="width:350px;margin:0 auto;">
+              <div class="button-bar__item">
+                <input id="star1" type="radio" name="segment-a">
+                <button class="button-bar__button">☆</button>
+              </div>
+              <div class="button-bar__item">
+                <input id="star2" type="radio" name="segment-a">
+                <button class="button-bar__button">☆☆</button>
+              </div>
+              <div class="button-bar__item">
+                <input id="star3" type="radio" name="segment-a">
+                <button class="button-bar__button">☆☆☆</button>
+              </div>
+              <div class="button-bar__item">
+                <input id="star4" type="radio" name="segment-a">
+                <button class="button-bar__button">☆☆☆☆</button>
+              </div>
+              <div class="button-bar__item">
+                <input id="star5" type="radio" name="segment-a">
+                <button class="button-bar__button">☆☆☆☆☆</button>
+              </div>
+            </div>
+         <p id="sessionSalle"></p>
+         <div id="sessionSpeakers"></div>
+         <button id="buttonNote" class="button button--large">Mes notes</button>
+         <p id="sessionDesc"></p>
+</ons-page>

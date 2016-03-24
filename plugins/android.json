@@ -1,0 +1,49 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "fr.conference"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "fr.conference"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "fr.conference"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "fr.conference"
+        },
+        "cordova-sqlite-storage": {
+            "PACKAGE_NAME": "fr.conference"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "fr.conference"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "fr.conference"
+        },
+        "cordova-plugin-x-socialsharing": {
+            "PACKAGE_NAME": "fr.conference"
+        },
+        "cordova-plugin-actionsheet": {
+            "PACKAGE_NAME": "fr.conference"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "fr.conference"
+        },
+        "cordova-plugin-filepath": {
+            "PACKAGE_NAME": "fr.conference"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "fr.conference"
+        }
+    }
+}

@@ -1,0 +1,53 @@
+<ons-navigator var="app.navi">
+    <ons-tabbar>
+      <ons-tab page="schedule.html" active="true">
+        <ons-icon icon="ion-ios-calendar" style="font-size: 28px; vertical-align: -4px;"></ons-icon>
+      </ons-tab>
+
+      <ons-tab page="schedule.html">
+        <ons-icon icon="ion-ios-people" style="font-size: 28px; vertical-align: -4px;"></ons-icon>
+      </ons-tab>
+
+      <ons-tab page="schedule.html">
+        <ons-icon icon="ion-gear-a" style="font-size: 28px; vertical-align: -4px;"></ons-icon>
+      </ons-tab>
+    </ons-tabbar>
+
+    <ons-template id="schedule.html">
+      <ons-page id="agendaPage">
+        <ons-toolbar>
+          <div class="left">
+                <ons-toolbar-button ng-click="app.menu.toggleMenu()"><ons-icon icon="fa-bars"></ons-icon></ons-toolbar-button>
+            </div>
+          <div class="center">
+            Agenda
+          </div>
+          <div class="right">
+            <ons-toolbar-button>
+              <ons-icon icon="ion-plus" fixed-width="false" style="vertical-align: -4px;"></ons-icon>
+            </ons-toolbar-button>
+          </div>
+        </ons-toolbar>
+
+        <div class="navigation-bar">
+          <div class="navigation-bar__center">
+
+            <!-- segment control -->
+            <div class="button-bar" style="width:200px; margin:8px auto 0;">
+              <div class="button-bar__item">
+                <input type="radio" name="navi-segment-a" checked>
+                <div class="button-bar__button">Today</div>
+              </div>
+              <div class="button-bar__item">
+                <input type="radio" name="navi-segment-a">
+                <div class="button-bar__button">Tomorrow</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <ons-list id="agendaList" class="plan-list">
+        </ons-list>
+      </ons-page>
+    </ons-template>
+</ons-navigator>

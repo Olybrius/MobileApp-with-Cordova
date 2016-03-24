@@ -1,0 +1,27 @@
+<ons-page id="sessionPageNote">
+    <ons-toolbar>
+        <div class="left">
+            <ons-toolbar-button onClick="app.navi.popPage()"><ons-icon icon="fa-chevron-left"></ons-icon>&nbsp;Annuler</ons-toolbar-button>
+        </div>
+        <div class="center">Mes notes</div>
+    </ons-toolbar>
+        <h4 id="sessionNoteTitle"></h4>
+        <div class="button-icon">
+            <button id="takePicture" class="toolbar-button toolbar-button--outline">
+              <i class="fa fa-camera"></i>
+            </button>
+            <button id="existingPicture" class="toolbar-button toolbar-button--outline">
+              <i class="fa fa-picture-o"></i>
+            </button>
+            <button id="takeSound" class="toolbar-button toolbar-button--outline">
+              <i class="fa fa-microphone"></i>
+            </button>
+            <button id="takeVideo" class="toolbar-button toolbar-button--outline">
+              <i class="fa fa-video-camera"></i>
+            </button>
+        </div>
+        <button id="saveNote" class="button button--large">Enregistrer</button>
+        <textarea id="noteText" style="width: 100%" class="textarea" rows="3" placeholder="Mes notes"></textarea>
+        <div id="notes_picture_list">
+        </div>
+</ons-page>
